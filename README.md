@@ -1,7 +1,7 @@
 # Official PyTorch implementation of "Synthetic Temporal Anomaly Guided End-to-End Video Anomaly Detection"
 This is the implementation of the paper "Synthetic Temporal Anomaly Guided End-to-End Video Anomaly Detection" (ICCV Workshops 2021: RSL-CV).
 
-Paper [[CVF page](https://openaccess.thecvf.com/content/ICCV2021W/RSLCV/html/Astrid_Synthetic_Temporal_Anomaly_Guided_End-to-End_Video_Anomaly_Detection_ICCVW_2021_paper.html)]
+[Paper](https://openaccess.thecvf.com/content/ICCV2021W/RSLCV/html/Astrid_Synthetic_Temporal_Anomaly_Guided_End-to-End_Video_Anomaly_Detection_ICCVW_2021_paper.html) || [Presentation Video](https://youtu.be/om7sY1hc3Dw)
 
 ## Dependencies
 * Python 3.6
