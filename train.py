@@ -72,9 +72,6 @@ sys.stdout = f
 torch.set_printoptions(profile="full")
 
 loss_func_mse = nn.MSELoss(reduction='none')
-frame_diff_mse_func = nn.MSELoss(reduction='none')
-adversarial_loss_func = torch.nn.BCELoss(reduction='none')
-binary_loss_func = torch.nn.BCELoss(reduction='none')
 
 if args.start_epoch < args.epochs:
     model = convAE()

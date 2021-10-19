@@ -39,7 +39,6 @@ if args.vid_dir is not None:
 torch.backends.cudnn.enabled = True # make sure to use cudnn for computational performance
 
 loss_func_mse = nn.MSELoss(reduction='none')
-frame_diff_mse_func = nn.MSELoss(reduction='none')
 
 # Loading the trained model
 model = convAE()
