@@ -68,19 +68,8 @@ class Reconstruction3DDataLoader(data.Dataset):
         for video in sorted(videos):
             video_name = video.split('/')[-2]
 
-            # # calculate background model of this video
-            # bg_frames = []
-            # for i in range(len(self.videos[video_name]['frame'])):
-            #     bg_frames.append(np_load_frame(self.videos[video_name]['frame'][i], self._resize_height, self._resize_width, grayscale=True))
-            # bg_frames = np.stack(bg_frames, axis=0)
-            # bg_frame = (np.mean(bg_frames, axis=0) + 1.0) * 127.5
-            # bg_filename = video[:-1] + 'mean' + self.extension
-            # if not os.path.isfile(bg_filename):
-            #     cv2.imwrite(bg_filename, bg_frame.astype(np.uint8))
-
             for i in range(len(self.videos[video_name]['frame']) - self._num_frames + 1):
                 frames.append(self.videos[video_name]['frame'][i])
-                # background_models.append(bg_filename)
 
         return frames, background_models
 
@@ -88,8 +77,6 @@ class Reconstruction3DDataLoader(data.Dataset):
         # index = 8
         video_name = self.samples[index].split('/')[-2]
         if self.dataset == 'shanghai' and 'training' in self.samples[index]:
-            frame_name = int(self.samples[index].split('/')[-1].split('.')[-2]) - 1
-        elif self.dataset == 'ped1':
             frame_name = int(self.samples[index].split('/')[-1].split('.')[-2]) - 1
         else:
             frame_name = int(self.samples[index].split('/')[-1].split('.')[-2])
@@ -113,8 +100,6 @@ class Reconstruction3DDataLoaderJump(Reconstruction3DDataLoader):
         # index = 8
         video_name = self.samples[index].split('/')[-2]
         if self.dataset == 'shanghai' and 'training' in self.samples[index]:  # bcos my shanghai's start from 1
-            frame_name = int(self.samples[index].split('/')[-1].split('.')[-2]) - 1
-        elif self.dataset == 'ped1':
             frame_name = int(self.samples[index].split('/')[-1].split('.')[-2]) - 1
         else:
             frame_name = int(self.samples[index].split('/')[-1].split('.')[-2])
