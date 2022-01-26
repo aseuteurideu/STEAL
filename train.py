@@ -52,7 +52,7 @@ img_extension = '.tif' if args.dataset_type == 'ped1' else '.jpg'
 train_dataset = Reconstruction3DDataLoader(train_folder, transforms.Compose([transforms.ToTensor()]),
                                            resize_height=args.h, resize_width=args.w, dataset=args.dataset_type, img_extension=img_extension)
 train_dataset_jump = Reconstruction3DDataLoaderJump(train_folder, transforms.Compose([transforms.ToTensor()]),
-                                                resize_height=args.h, resize_width=args.w, dataset=args.dataset_type, jump=args.jump, return_normal_seq=args.pseudo_anomaly_jump > 0, img_extension=img_extension)
+                                                resize_height=args.h, resize_width=args.w, dataset=args.dataset_type, jump=args.jump, img_extension=img_extension)
 
 train_size = len(train_dataset)
 

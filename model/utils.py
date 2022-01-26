@@ -131,5 +131,5 @@ class Reconstruction3DDataLoaderJump(Reconstruction3DDataLoader):
             return np.stack(batch, axis=1), np.stack(normal_batch, axis=1)
 
         else:
-            return np.stack(batch, axis=1), normal_batch
+            return np.stack(batch, axis=1)
 
