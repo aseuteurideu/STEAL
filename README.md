@@ -28,7 +28,7 @@ python train.py --dataset_type ped2
 
 * Training STEAL Net
 ```bash
-python train.py --dataset_type ped2 --pseudo_anomaly_jump 0.2 --jump 2 3 4 5
+python train.py --dataset_type ped2 --pseudo_anomaly_jump 0.01 --jump 2 3 4 5
 ```
 
 Select --dataset_type from ped2, avenue, or shanghai.
