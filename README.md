@@ -40,12 +40,12 @@ For more details, check train.py
 
 | Model           | Dataset       | AUC           | Weight        |
 | -------------- | ------------- | ------------- | ------------- | 
-| Baseline | Ped2          |   92.5%       | [ [drive](https://drive.google.com/file/d/1KXagNmQyGDhAfTdqIhZ4Y8p67Xps0xq5/view?usp=sharing) ] |
-| Baseline | Avenue        |   81.5%       | [ [drive](https://drive.google.com/file/d/1oj9LhD-QkjlvGQLseNNRP0mVwZSTMMKp/view?usp=sharing) ] |
-| Baseline | ShanghaiTech  |   71.3%       | [ [drive](https://drive.google.com/file/d/13XVSrEIdgvbOcAt7kUITD6zXNuNF0e3R/view?usp=sharing) ] |
-| STEAL Net  | Ped2          |   98.4%       | [ [drive](https://drive.google.com/file/d/1KtXnFhK_7U5JwQey6O4oglW_pXZcgy26/view?usp=sharing) ] |
-| STEAL Net  | Avenue        |   87.1%       | [ [drive](https://drive.google.com/file/d/1saBF_5Hq2TGTveQTjEpZKnnm-nT5OeGH/view?usp=sharing) ] |
-| STEAL Net  | ShanghaiTech  |   73.7%       | [ [drive](https://drive.google.com/file/d/18eiTRXMGRutgf6pu8nayfuRPWQOKPHnL/view?usp=sharing) ] |
+| Baseline | Ped2          |   92.5%       | [ [drive](https://drive.google.com/file/d/1ARggGh6gh-Y-or0Kd71GlkBRllJsMyjY/view?usp=share_link) ] |
+| Baseline | Avenue        |   81.5%       | [ [drive](https://drive.google.com/file/d/1Eac4macUQ2zPOf6dEOgUvXFEKdDsE1Pg/view?usp=share_link) ] |
+| Baseline | ShanghaiTech  |   71.3%       | [ [drive](https://drive.google.com/file/d/15x_DSu1WP-JVNmbCor316vb4pgTHYof3/view?usp=share_link) ] |
+| STEAL Net  | Ped2          |   98.4%       | [ [drive](https://drive.google.com/file/d/1ZPeOHwIF354bedcwRKms9MguU8dBkRZu/view?usp=sharing) ] |
+| STEAL Net  | Avenue        |   87.1%       | [ [drive](https://drive.google.com/file/d/18qTDouBqlIqq2uz8XGfAoRSqBhTOVXjP/view?usp=sharing) ] |
+| STEAL Net  | ShanghaiTech  |   73.7%       | [ [drive](https://drive.google.com/file/d/1_bqWu2qE4EyxSpN1DBKosUC6AdaUlNi-/view?usp=sharing) ] |
 
 ## Evaluation
 * Test the model
