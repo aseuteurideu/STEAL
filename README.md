@@ -10,9 +10,9 @@ This is the implementation of the paper "Synthetic Temporal Anomaly Guided End-t
 * Sklearn
 
 ## Datasets
-* USCD Ped2 [[dataset](https://drive.google.com/file/d/1GhIqtImg0xv-sx4nJiFldQ9tCbezmuob/view?usp=share_link)]
-* CUHK Avenue [[dataset](https://drive.google.com/file/d/1zE1flARFJyckS8By5fOEDoFeiKHZH0Wi/view?usp=share_link)]
-* ShanghaiTech [[dataset](https://drive.google.com/file/d/166MaSkFfdsxo_0ksIqr8AeWdVgk21CZ_/view?usp=share_link)]
+* USCD Ped2 [[dataset](https://drive.google.com/file/d/1w1yNBVonKDAp8uxw3idQkUr-a9Gj8yu1/view?usp=sharing)]
+* CUHK Avenue [[dataset](https://drive.google.com/file/d/1q3NBWICMfBPHWQexceKfNZBgUoKzHL-i/view?usp=sharing)]
+* ShanghaiTech [[dataset](https://drive.google.com/file/d/1rE1AM11GARgGKf4tXb2fSqhn_sX46WKn/view?usp=sharing)]
 
 Download the datasets into ``dataset`` folder, like ``./dataset/ped2/``, ``./dataset/avenue/``, ``./dataset/shanghai/``
 
@@ -40,12 +40,12 @@ For more details, check train.py
 
 | Model           | Dataset       | AUC           | Weight        |
 | -------------- | ------------- | ------------- | ------------- | 
-| Baseline | Ped2          |   92.5%       | [ [drive](https://drive.google.com/file/d/1ARggGh6gh-Y-or0Kd71GlkBRllJsMyjY/view?usp=share_link) ] |
-| Baseline | Avenue        |   81.5%       | [ [drive](https://drive.google.com/file/d/1Eac4macUQ2zPOf6dEOgUvXFEKdDsE1Pg/view?usp=share_link) ] |
-| Baseline | ShanghaiTech  |   71.3%       | [ [drive](https://drive.google.com/file/d/15x_DSu1WP-JVNmbCor316vb4pgTHYof3/view?usp=share_link) ] |
-| STEAL Net  | Ped2          |   98.4%       | [ [drive](https://drive.google.com/file/d/1ZPeOHwIF354bedcwRKms9MguU8dBkRZu/view?usp=sharing) ] |
-| STEAL Net  | Avenue        |   87.1%       | [ [drive](https://drive.google.com/file/d/18qTDouBqlIqq2uz8XGfAoRSqBhTOVXjP/view?usp=sharing) ] |
-| STEAL Net  | ShanghaiTech  |   73.7%       | [ [drive](https://drive.google.com/file/d/1_bqWu2qE4EyxSpN1DBKosUC6AdaUlNi-/view?usp=sharing) ] |
+| Baseline | Ped2          |   92.5%       | [ [drive](https://drive.google.com/file/d/1QN02heGYVgOgivmfMGkPjR0GHwqT4wRg/view?usp=share_link) ] |
+| Baseline | Avenue        |   81.5%       | [ [drive](https://drive.google.com/file/d/1Xqh5hPffEnEsoBIp_tHuHEFziapShl85/view?usp=share_link) ] |
+| Baseline | ShanghaiTech  |   71.3%       | [ [drive](https://drive.google.com/file/d/1Bh2E2pJHkf-uTkELTgKGuezqYg1msLen/view?usp=share_link) ] |
+| STEAL Net  | Ped2          |   98.4%       | [ [drive](https://drive.google.com/file/d/12bZN6zueV77pf7qs72N965K8R-1TpTKk/view?usp=sharing) ] |
+| STEAL Net  | Avenue        |   87.1%       | [ [drive](https://drive.google.com/file/d/1oJMekYqQBeKLBvmP4CUnrpbNbr-3GQI1/view?usp=sharing) ] |
+| STEAL Net  | ShanghaiTech  |   73.7%       | [ [drive](https://drive.google.com/file/d/1AyJZL6lvSLKS1rF7QTczrjZSRRemRaxN/view?usp=share_link) ] |
 
 ## Evaluation
 * Test the model
